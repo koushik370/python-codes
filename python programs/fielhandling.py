@@ -1,0 +1,10 @@
+f=open('file_1.txt','a')
+f.write("append function is")
+print(f.tell())
+f.write("hello world this is koushik")
+print(f.tell())
+print(f.seek(0))
+data=f.read()
+print(data)
+print(f.tell())
+
